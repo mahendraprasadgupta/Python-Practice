@@ -1,3 +1,12 @@
+"""
+Docstrings in Python are used not only for the description of a class or a function to provide a better understanding of the code and use but, also used for Testing purposes.
+
+The Doctest Module finds patterns in the docstring that looks like interactive shell commands.
+
+The input and expected output are included in the docstring, then the doctest module uses this docstring for testing the processed output.
+After parsing through the docstring, the parsed text is executed as python shell commands and the result is compared with the expected outcome fetched from the docstring.
+"""
+
 # import testmod for testing our function
 from doctest import testmod
   
