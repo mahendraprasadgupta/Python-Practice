@@ -1,9 +1,9 @@
-import docString as obj #import everything in obj from docString
-from docString import __version__ #import __version__ only from docString
-import docString #import docString directly 
+import docstring as obj #import everything in obj from docString
+from docstring import __version__ #import __version__ only from docString
+import docstring #import docString directly 
 import sys 
 
-print(docString.testfunc)
+print(docstring.testfunc)
 
 obj1=obj.Test()
 print(obj1.testfunc1.__doc__)
