@@ -1,3 +1,5 @@
+#partial function Example
+
 from functools import *
   
 # A normal function
