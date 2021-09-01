@@ -9,3 +9,9 @@ print(x(5, 6)) # prints '30'
 
 x = lambda a : a*3 + 3
 print(x(3)) # prints '12'
+
+
+# Why Use Lambda Functions?
+# The power of lambda is better shown when you use them as an anonymous function inside another function.
+
+# Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number:
