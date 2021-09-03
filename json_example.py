@@ -26,9 +26,9 @@ import json
 
 # a Python object (dict):
 x = {
-  "name": "John",
-  "age": 30,
-  "city": "New York"
+  "name": "Mahendra",
+  "age": 27,
+  "city": "India"
 }
 
 # convert into JSON:
